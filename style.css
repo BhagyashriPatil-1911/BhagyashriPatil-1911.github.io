@@ -1,1 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+body {
+    background: #f5f9fc;
+    color: #1f2937;
+}
+
+
+/* Hero Section */
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg,#0b5ed7,#0dcaf0);
+    color: white;
+    padding: 40px;
+}
+
+
+.hero-content h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+
+.hero-content h2 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+
+.hero-content p {
+    font-size:18px;
+    max-width:700px;
+    margin:auto;
+    line-height:1.6;
+}
+
+
+.btn {
+
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 30px;
+    background:white;
+    color:#0b5ed7;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+
+}
+
+
+/* Sections */
+
+section {
+    padding:70px 10%;
+}
+
+
+section h2 {
+
+    text-align:center;
+    color:#0b5ed7;
+    margin-bottom:30px;
+
+}
+
+
+/* About */
+
+.about p {
+
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    line-height:1.8;
+    font-size:18px;
+
+}
+
+
+.stats {
+
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+
+}
+
+
+.stats div {
+
+    background:white;
+    padding:30px;
+    width:200px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 20px #ddd;
+
+}
+
+
+.stats h3 {
+
+    font-size:35px;
+    color:#0b5ed7;
+
+}
+
+
+/* Skills */
+
+.skill-container {
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+
+}
+
+
+.skill-container span {
+
+    background:white;
+    padding:15px 25px;
+    border-radius:25px;
+    box-shadow:0 3px 10px #ddd;
+    color:#0b5ed7;
+    font-weight:bold;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:38px;
+}
+
+
+.stats{
+
+flex-direction:column;
+align-items:center;
+
+}
+
+}
